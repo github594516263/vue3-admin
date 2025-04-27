@@ -1,0 +1,75 @@
+@charset "utf-8";
+@use 'sass:math';
+
+//@forward 'element-plus/theme-chalk/src/mixins/config.scss' with (
+//  $namespace: 'el'
+//);
+
+// Variables base
+$background: #f0f0f0;
+
+// 主色 dominate color
+$white: #ffffff;
+$black: #1a1b1f;
+$gray: #56585f;
+$lightgray: #d3d8e2;
+$lightgray_disabled: #b4b9c3;
+$purple: #51318a;
+$blue: #3871ff;
+$orange: #fc7a02;
+$yellow: #ffcc29;
+$green: #28aa91;
+$darkGreen: #109810;
+$red: #ff5b60;
+$darkBlue: #417eae;
+$placeholder: #9b9b9b;
+
+$textColorPrimary: #1b2531;
+$text-color-grey: #a0a5af;
+$textColorGrey: rgba(27, 37, 49, 0.7);
+
+$text-line-color-primary: #f8a325;
+
+$border-color-primary: #e8e9f4;
+
+$btn-color-primary: #4bd9a3;
+$btn-color-grey: #c7c7c7;
+
+// component variables
+// v-dialog
+$dialogWidth: 776px;
+// $defaultDialogHeight: 496px;
+$dialogClsBtnColor: #b4b8c7;
+
+// v-button
+$buttonMinWidth: 190px;
+$buttonPadding: 14px;
+$buttonBorderColor: #3571ff;
+$buttonRadius: 6px;
+
+$buttonPrimaryColor: linear-gradient(136deg, #5f8fff 0%, #3370ff 100%);
+$buttonTextColor: $buttonBorderColor;
+$buttonHoverColor: $buttonBorderColor;
+$buttonBorderHoverColor: $buttonBorderColor;
+
+// v-line-text
+$lineTextHeight: 18px; // 线高度
+$lineTextPaddingLeft: 10px;
+$lineTextFontSize: 18px;
+$lineTextColor: $textColorGrey;
+// 线
+$lineTextLineWidth: 4px;
+// $lineTextLineHeight: 18px;
+$lineTextLineColor: #437bff;
+
+// 卡片
+$cardSize: 60px;
+$cardCircleSize: 28px;
+
+// 页面 header 高
+$header-height: 44px;
+
+// 命名空间
+$namespace: v;
+// el命名空间
+$elNamespace: el;
